@@ -1,0 +1,12 @@
+<configuration>
+  <appender name="BRIEFSTDOUT" class="ch.qos.logback.core.ConsoleAppender">
+    <encoder>
+      <Pattern>[%level] [wiley-ldap] %msg%n</Pattern>
+    </encoder>
+  </appender>
+    
+  <root>
+    <level value="info" />
+    <appender-ref ref="BRIEFSTDOUT" />
+  </root>
+</configuration>
